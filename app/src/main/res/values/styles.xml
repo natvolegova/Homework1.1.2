@@ -1,0 +1,63 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@android:color/white</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:textColorPrimaryInverse">@color/colorPrimaryText</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryText</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+
+
+
+    <style name="HeadingPrimary">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/rubikbold</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="HeadingSecondary" parent="HeadingPrimary">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextPrimary">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/rubikregular</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="SubText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/rubiklight</item>
+        <item name="android:textColor">@color/colorSecondaryText</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+    <style name="ButtonsPrimary">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/rubikbold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:background">@drawable/rounded_button</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="AppTheme">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AndroidVolegova</string>
+    <string name="main_activity_label">FirstActivity</string>
+
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="AppName">FaceFitness</string>
+    <string name="btn_authorization">Авторизация</string>
+    <string name="help_regist">Еще нет аккаунта? Зарегистририруйтесь</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>
